@@ -123,10 +123,10 @@ var mt=450;
 function jump(){
 
     if(j<=6){
-        mt=mt-39;
+        mt=mt-30;
     }
     if(j>=7){
-        mt=mt+39;
+        mt=mt+30;
     }
 
     img.style.marginTop=mt+"px";
@@ -203,4 +203,5 @@ function dead(){
 
 function re(){
     location.reload();
+
 }
